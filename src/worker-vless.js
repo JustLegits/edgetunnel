@@ -623,7 +623,7 @@ clash-meta
   network: ws
   tls: true
   udp: false
-  sni: www.tiktok.com
+  sni: ${hostName}
   client-fingerprint: chrome
   ws-opts:
     path: "/?ed=2048"
